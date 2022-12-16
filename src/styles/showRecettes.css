@@ -1,0 +1,42 @@
+#listRecette {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+
+  }
+  
+#miniRecette {
+    width: 300px;
+    margin: 0.5em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+  }
+  
+  #miniRecette:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  #miniRecette h1 {
+    font-size: 1.5em;
+    margin: 0.5em;
+  }
+  
+  #miniRecette h2 {
+    font-size: 1.2em;
+    margin: 0.5em;
+    color: grey;
+  }
+  
+  #miniRecette img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  @media (max-width: 600px) {
+    #miniRecette {
+      width: 90%;
+    }
+  }
